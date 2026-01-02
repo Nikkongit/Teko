@@ -4,11 +4,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Dem</title>
+    <title>Modern Slide Banner</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
+    <section class="banner-container">
+        <div class="slider-track">
+            <!-- Slide 1 -->
+            <div class="slide">
+                <div class="overlay"></div>
+                <img src="assets/images/banner1.png" alt="Futuristic City" class="slide-image">
+                <div class="slide-content">
+                    <h1>Future is Now.</h1>
+                    <p>Experience the next generation of digital innovation with our cutting-edge solutions designed for
+                        the modern world.</p>
+                    <a href="#" class="cta-button">Explore More</a>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide">
+                <div class="overlay"></div>
+                <img src="assets/images/banner2.png" alt="Technology Waves" class="slide-image">
+                <div class="slide-content">
+                    <h1>Data in Motion.</h1>
+                    <p>Seamless connectivity and flow. Unlock the potential of your data with our advanced analytics
+                        platform.</p>
+                    <a href="#" class="cta-button">Get Started</a>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide">
+                <div class="overlay"></div>
+                <img src="assets/images/banner3.png" alt="Serene Landscape" class="slide-image">
+                <div class="slide-content">
+                    <h1>Reimagine Horizons.</h1>
+                    <p>Find peace in clarity. Design your path with vision and purpose in a chaotic world.</p>
+                    <a href="#" class="cta-button">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-controls">
+            <button class="control-btn btn-prev">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+            </button>
+            <button class="control-btn btn-next">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </button>
+        </div>
+
+        <div class="slider-indicators">
+            <div class="indicator active"></div>
+            <div class="indicator"></div>
+            <div class="indicator"></div>
+        </div>
+    </section>
+
+    <!-- Vanishing / Stacking Section -->
+    <section class="stacking-section">
+        <div class="section-header">
+            <h2>Our Innovation</h2>
+            <p>Scroll down to explore the core pillars of our future vision.</p>
+        </div>
+
+        <div class="stack-container">
+            <!-- Card 1 -->
+            <div class="card-item">
+                <div class="card-content">
+                    <div class="card-number">01. Interaction</div>
+                    <h3>Fluid Interfaces</h3>
+                    <p>Experience touch compatibility like never before. Our systems adapt to your usage patterns,
+                        creating a seamless bond between human and machine.</p>
+                    <a href="#" class="cta-button">See Demo</a>
+                </div>
+                <div class="card-image-wrapper">
+                    <img src="assets/images/card1.png" alt="Card UI">
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card-item">
+                <div class="card-content">
+                    <div class="card-number">02. Intelligence</div>
+                    <h3>Smart Analytics</h3>
+                    <p>Data drives decision. With real-time processing and AI-driven insights, you carry the power of a
+                        supercomputer in your pocket.</p>
+                    <a href="#" class="cta-button">Learn More</a>
+                </div>
+                <div class="card-image-wrapper">
+                    <img src="assets/images/card2.png" alt="Dashboard UI">
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card-item">
+                <div class="card-content">
+                    <div class="card-number">03. Ecosystem</div>
+                    <h3>Connected World</h3>
+                    <p>No device is an island. Our unified ecosystem ensures that your workflow remains uninterrupted,
+                        no matter where you are.</p>
+                    <a href="#" class="cta-button">Join Us</a>
+                </div>
+                <div class="card-image-wrapper">
+                    <img src="assets/images/banner1.png" alt="Connected City">
+                </div>
+            </div>
+        </div>
+        <div style="height: 50vh;"></div> <!-- Extra space to allow full scroll of last card -->
+    </section>
+
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
