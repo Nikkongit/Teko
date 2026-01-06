@@ -3,6 +3,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import ContactForm from '@/components/ContactForm';
 
 export default function Home() {
   // Slider state
@@ -284,6 +285,15 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </main>
+
+
+      {/* Contact Form Section */}
+      <section className="contact-section" id="contact">
+        <div className="contact-container">
+          <h2>Start Your Journey</h2>
+          <ContactForm />
+        </div>
+      </section>
+    </main >
   );
 }
