@@ -227,7 +227,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div style={{ height: '50vh' }}></div>
       </section>
 
       {/* Features Section */}
